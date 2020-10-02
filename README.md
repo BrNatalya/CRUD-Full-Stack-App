@@ -16,4 +16,3 @@ VALUES	(1, 'ivanov@gmail.com', 'Иван', 'Иванов'),
         (4, 'petrov@gmail.com', 'Петр', 'Петров'),
 	(4, 'sidorov@gmail.com', 'Михаил', 'Сидоров'),
 	(4, 'guseva@gmail.com', 'Елена', 'Гусева');
-		
