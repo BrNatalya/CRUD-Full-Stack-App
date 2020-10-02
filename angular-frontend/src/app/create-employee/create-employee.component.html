@@ -1,0 +1,28 @@
+<div class="col-md-6 offset-md-3">
+<br>
+<br>
+<h3> Добавить нового сотрудника</h3>
+<br>
+<form (ngSubmit) = "onSubmit()">
+
+    <div class="form-group">
+        <label>Имя</label>
+        <input type = "text" class="form-control" id = "firstName"
+            [(ngModel)] = "employee.firstName" name = "firstName">
+    </div>
+
+    <div class="form-group">
+      <label>Фамилия</label>
+      <input type = "text" class="form-control" id = "lastName"
+          [(ngModel)] = "employee.lastName" name = "lastName">
+    </div>
+
+    <div class="form-group">
+      <label>Email</label>
+      <input type = "text" class="form-control" id = "emailId"
+          [(ngModel)] = "employee.emailId" name = "emailId">
+    </div>
+
+    <button class="btn btn-success"  type = "submit">Добавить</button>
+</form>
+</div>
