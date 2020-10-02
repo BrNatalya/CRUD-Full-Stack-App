@@ -10,3 +10,10 @@ CREATE TABLE public.employees
     last_name character varying(100) COLLATE pg_catalog."default",
     CONSTRAINT employees_pkey PRIMARY KEY (id)
 )
+
+INSERT INTO employees(id, email_id, first_name, last_name) 
+VALUES	(1, 'ivanov@gmail.com', 'Иван', 'Иванов'),
+        (4, 'petrov@gmail.com', 'Петр', 'Петров'),
+	(4, 'sidorov@gmail.com', 'Михаил', 'Сидоров'),
+	(4, 'guseva@gmail.com', 'Елена', 'Гусева');
+		
