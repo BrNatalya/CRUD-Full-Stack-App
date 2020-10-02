@@ -1,4 +1,4 @@
-The developed network application is intended for employee management. The program uses PostgreSQL DBMS to store data. The application is developed in Java 8 OpenJDK language using Spring Boot, Spring Data, Angular and Maven builder in IntelliJ IDEA (backend) and VS Code (frontend) development environments. The server side of the application is deployed on the Linux operating system. The client side of the application is a web browser.
+The developed network application is intended for employee management. The program uses PostgreSQL to store data. The application is developed in Java 8 OpenJDK language using Spring Boot, Spring Data, Angular and Maven builder in IntelliJ IDEA (backend) and VS Code (frontend) development environments. The server side of the application is deployed on the Linux operating system. The client side of the application is a web browser.
 
 Database creation:
 
